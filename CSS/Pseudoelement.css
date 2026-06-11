@@ -1,0 +1,48 @@
+  p::before {
+            content: "✨ ";
+            color: gold;
+        }
+
+     h1::after {
+            content: " 🔥";
+            color: red;
+        }  
+        
+    h2::first-letter {
+            font-size: 2em;
+            color: blue;
+        }    
+
+     h3::first-line {
+            font-weight: bold;
+            color: green;
+        }   
+
+
+      h4::selection {
+            background: yellow;
+            color:green;
+        }  
+
+     input::placeholder {
+            color:palevioletred;
+            font-style: italic;
+        }   
+
+     li::marker {
+            color: purple;
+            font-size: 1.5em;
+        }
+        
+/*      
+      dialog::backdrop {
+            background: rgba(232, 233, 0, 0.5);
+        }
+        
+<!--Driver Code Starts-->
+
+        dialog {
+            border: none;
+            padding: 20px;
+            background: white;
+        }    */

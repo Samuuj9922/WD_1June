@@ -1,0 +1,34 @@
+/* Selector */
+/* simple selector */
+
+/* 1.id selector */
+
+#h444{
+    color: green;
+}
+
+/* class selector */
+
+.c11{
+    color: aqua;
+}
+
+/* tagname selector */
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* Grouping selector */
+
+#h444, .c11 , h2, h1{
+    background-color: tomato;
+}
+
+/* Universal selector*/
+
+*{
+    background: radial-gradient(pink,purple);
+}
+

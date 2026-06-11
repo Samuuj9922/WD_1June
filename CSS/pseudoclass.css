@@ -1,0 +1,88 @@
+ button:hover {
+            background-color: lightblue;
+            color: white;
+        }
+
+ input:focus {
+            border: 2px solid blue;
+            outline: none;
+        }
+
+ button:active {
+            background-color: darkblue;
+            color: white;
+        }
+
+
+   button:focus-visible {
+            outline: 3px solid orange;
+        }      
+
+   .form-container:focus-within {
+            border: 2px solid green;
+        }     
+
+   p:first-child {
+            color: red;
+        }     
+
+    h6:last-child {
+            color: blue;
+        }     
+
+     h5:nth-child(5) {
+            color: green;
+        } 
+        
+     b:first-of-type {
+            color: purple;
+        }    
+
+
+      h4:only-child {
+            color: teal;
+        }  
+        
+       input:checked {
+            outline: 5px solid red;
+        }
+        
+        
+      input:disabled {
+            background-color: lightgray;
+        }
+        
+     input:enabled {
+            background-color: lightblue;
+        }   
+
+
+     input:required {
+            border: 2px solid red;
+        }    
+
+        input:optional {
+            border: 2px solid green;
+        } 
+
+
+
+      input:valid {
+            border: 2px solid green;
+        }  
+
+      input:invalid {
+            border: 2px solid red;
+        }   
+
+
+
+       a:link {
+            color: green;
+        }
+
+
+        h1:visited {
+            color: purple;
+        } 
+
