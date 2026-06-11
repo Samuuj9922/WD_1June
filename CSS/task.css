@@ -1,0 +1,33 @@
+*{
+    background: linear-gradient(white,rgb(243,130,243));
+}
+
+
+div{
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(orange,red);
+    padding-top: 90px;
+    padding-left: 100px;
+    /* float: right; */
+
+
+    margin-top: 180px;
+    margin-left: 260px;
+    border-style: dotted;
+    border-color: blue;
+
+    box-shadow: 20px 10px 20px 10px;
+    opacity: 1.6;
+
+    /* border-radius: 30px; */
+     border-top-left-radius: 30px;
+     border-bottom-right-radius: 30px ;
+
+}
+
+div:hover{
+
+    background: linear-gradient(white);
+    border-radius: 70px;
+}
