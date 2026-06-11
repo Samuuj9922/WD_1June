@@ -1,0 +1,29 @@
+
+/* Combinator Selector */
+
+/* 1.Desendent Cs */
+
+div p{
+    color: red;
+}
+
+/* 2.Child Cs */
+
+div>p{
+
+    font-size: larger
+    ;
+}
+
+
+/* 3.Adjacent cs */
+div+p{
+   color: blue;
+}
+
+/* 
+4.General sibling cs */
+
+div~p{
+    background-color: chartreuse;
+}
