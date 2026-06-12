@@ -1,0 +1,102 @@
+/* .row{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.box{
+    width: 150px;
+}
+
+.box img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.box img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.box:hover button,
+.box:hover b{
+    opacity: 1; */
+/* } */
+
+
+.row{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.box{
+    position: relative;
+    width: 160px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* image */
+.box img{
+    width: 100%;
+    display: block;
+    transition: 0.4s ease;
+}
+
+/* zoom effect */
+.box:hover img{
+    transform: scale(1.1);
+}
+
+/* dark overlay */
+.box::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+/* show overlay */
+.box:hover::after{
+    opacity: 1;
+}
+
+/* Watch button */
+.box button{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, 20px);
+    padding: 8px 14px;
+    background: #e50914; /* ZEE5/Netflix red */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+/* Share text */
+.box b{
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, 20px);
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+/* hover animation (slide up + fade in) */
+.box:hover button,
+.box:hover b{
+    opacity: 1;
+    transform: translate(-50%, 0);
+}
