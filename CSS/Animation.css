@@ -7,7 +7,7 @@
     width: 100px;
     height: 100px;
     position: absolute;
-   animation: xyz 3s ease-in-out 5s infinite;
+   animation: xyz 3s ease-in-out  infinite;
 }
 
 
